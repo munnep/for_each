@@ -68,7 +68,7 @@ module.name_complete["Kees"].null_resource.name: Creation complete after 0s [id=
 null_resource.name_complete["Jan"]: Creation complete after 0s [id=7975923578546843613]
 null_resource.name["Kees"]: Creation complete after 0s [id=2628074953160894959]
 ```
-- Change the variables by creating a file called ```variables.auto.tfvars``` with the following content
+- Example of changing the variables by creating a file called ```variables.auto.tfvars``` with the following content
 ```
 first_name = ["Rita", "Marja"]
 first_last_name = {
