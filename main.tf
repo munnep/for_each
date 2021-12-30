@@ -1,5 +1,5 @@
 resource "null_resource" "name" {
-  for_each = toset(var.first_name)
+  for_each = var.first_name
   provisioner "local-exec" {
     command = "echo First name is ${each.key} last name is not ${each.value}"
   }
