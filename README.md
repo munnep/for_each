@@ -2,7 +2,7 @@
 
 In this repository you will use the for_each in Terraform code in 3 different ways to see how it works. 
 
-1. use for_each with a string of values on a resource
+1. use for_each with a list of values on a resource
 2. use for_each with a map on a resource
 3. use for_each with a map on a module
 
