@@ -1,16 +1,3 @@
-provider "null" {}
-
-variable "first_name" {
-  default = ["Jan", "Kees"]
-}
-
-variable "first_last_name" {
-  default = {
-    "Jan" : "Janssen",
-    "Kees" : "Bakker"
-  }
-}
-
 resource "null_resource" "name" {
   for_each = toset(var.first_name)
   provisioner "local-exec" {
