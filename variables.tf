@@ -1,4 +1,5 @@
 variable "first_name" {
+  type = set(string)
   default = ["Jan", "Kees"]
 }
 
