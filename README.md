@@ -15,27 +15,27 @@ See the following documentation [How to install Terraform](https://learn.hashico
 
 # How to
 
-1. Clone the repository to your local machine
+- Clone the repository to your local machine
 ```
 git clone https://github.com/munnep/for_each.git
 ```
-2. Change your directory
+- Change your directory
 ```
 cd for_each
 ```
-4. Terraform initialize
+- Terraform initialize
 ```
 terraform init
 ```
-5. Terraform plan
+- Terraform plan
 ```
 terraform plan
 ```
-6. Terraform apply
+- Terraform apply
 ```
 terraform apply
 ```
-7. Sample output
+- Sample output
 ```
 null_resource.name_complete["Jan"]: Creating...
 module.name_complete["Jan"].null_resource.name: Creating...
@@ -68,7 +68,7 @@ module.name_complete["Kees"].null_resource.name: Creation complete after 0s [id=
 null_resource.name_complete["Jan"]: Creation complete after 0s [id=7975923578546843613]
 null_resource.name["Kees"]: Creation complete after 0s [id=2628074953160894959]
 ```
-8. Change the variables by creating a file called ```variables.auto.tfvars``` with the following content
+- Change the variables by creating a file called ```variables.auto.tfvars``` with the following content
 ```
 first_name = ["Rita", "Marja"]
 first_last_name = {
